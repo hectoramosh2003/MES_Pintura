@@ -863,7 +863,7 @@ Children:
           Type: BaseDataVariableType
           DataType: Color
           ModellingRule: Optional
-          Value: "#ffffff00"
+          Value: "#0fafff"
         - Name: TextColor
           Type: BaseDataVariableType
           DataType: Color
