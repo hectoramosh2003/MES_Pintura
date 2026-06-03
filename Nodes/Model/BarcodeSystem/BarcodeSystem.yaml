@@ -1,0 +1,23 @@
+Name: BarcodeSystem
+Type: FolderType
+Children:
+- Name: Target_Ingredient_Name
+  Id: g=5263b80e331c05f1ce97398e9e12b374
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "0"
+- Name: Target_Ingredient_Qty
+  Id: g=904f0f75de4c1d873095c39d20afebf3
+  Type: BaseDataVariableType
+  DataType: Float
+- Name: Scanned_Barcode
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "0"
+- Name: Scan_Error_Message
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "0"
+- Name: Material_Verificado_Ok
+  Type: BaseDataVariableType
+  DataType: Boolean

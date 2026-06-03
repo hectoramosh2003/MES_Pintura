@@ -1,0 +1,17 @@
+Name: Resins
+Id: g=c46f7bdad075dc6404c1fe853ad0a0c5
+Type: FolderType
+Children:
+- Name: Acrylic Emulsion
+  Id: g=78ab2d3574e469857b37f0beb662c58d
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "Acrylic Emulsion"
+- Name: 'Styrene-Acrylic Copolymer'
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "Styrene-Acrylic Copolymer"
+- Name: Polyurethane Dispersion (PUD)
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "Polyurethane Dispersion (PUD)"

@@ -1,0 +1,6 @@
+Name: Fase_QC_Dil
+Type: FolderType
+Children:
+- Name: Progreso_UI
+  Type: BaseDataVariableType
+  DataType: Float

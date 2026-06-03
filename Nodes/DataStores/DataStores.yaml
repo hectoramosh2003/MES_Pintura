@@ -1,0 +1,570 @@
+Name: DataStores
+Type: DataStoresCategoryFolder
+Children:
+- Name: SQLiteDatabase
+  Id: g=d10ff4d900e3f764b7883ea07abff25f
+  Type: SQLiteStore
+  Children:
+  - Name: Tables
+    Type: BaseObjectType
+    Children:
+    - Name: batches
+      Type: SQLiteStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=11;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=11;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=11;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=11;i=20
+        Direction: Forward
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: batch_id
+          Type: StoreColumn
+          DataType: String
+        - Name: reduced_batch_id
+          Type: StoreColumn
+          DataType: String
+        - Name: recipe_name
+          Type: StoreColumn
+          DataType: String
+        - Name: recipe_id
+          Type: StoreColumn
+          DataType: String
+        - Name: operator
+          Type: StoreColumn
+          DataType: String
+        - Name: status
+          Type: StoreColumn
+          DataType: String
+          Value: "status"
+        - Name: target_quantity
+          Type: StoreColumn
+          DataType: Float
+        - Name: start_time
+          Type: StoreColumn
+          DataType: DateTime
+        - Name: end_time
+          Type: StoreColumn
+          DataType: DateTime
+    - Name: recipes
+      Type: SQLiteStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=11;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=11;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=11;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=11;i=20
+        Direction: Forward
+      - Name: Columns
+        Id: g=7ccb951a984f6dc50aa4642b2fccaf22
+        Type: BaseObjectType
+        Children:
+        - Name: disp_agua_kg
+          Type: StoreColumn
+          DataType: Float
+        - Name: disp_biocida_kg
+          Type: StoreColumn
+          DataType: Float
+        - Name: disp_dispersantes_kg
+          Type: StoreColumn
+          DataType: Float
+        - Name: disp_antiespumante_kg
+          Type: StoreColumn
+          DataType: Float
+        - Name: disp_pigmentos_kg
+          Type: StoreColumn
+          DataType: Float
+        - Name: disp_cargas_kg
+          Type: StoreColumn
+          DataType: Float
+        - Name: disp_agitador_rpm
+          Type: StoreColumn
+          DataType: Int32
+        - Name: disp_mixing_time_min
+          Type: StoreColumn
+          DataType: Int32
+        - Name: qc_disp_particula_min
+          Type: StoreColumn
+          DataType: Float
+        - Name: qc_disp_particula_max
+          Type: StoreColumn
+          DataType: Float
+        - Name: dil_agua_kg
+          Type: StoreColumn
+          DataType: Float
+        - Name: dil_resina_kg
+          Type: StoreColumn
+          DataType: Float
+        - Name: dil_espesantes_kg
+          Type: StoreColumn
+          DataType: Float
+        - Name: dil_ph_regulator_kg
+          Type: StoreColumn
+          DataType: Float
+        - Name: dil_antiespumante_kg
+          Type: StoreColumn
+          DataType: Float
+        - Name: dil_biocida_kg
+          Type: StoreColumn
+          DataType: Float
+        - Name: dil_aditivos_kg
+          Type: StoreColumn
+          DataType: Float
+        - Name: dil_agitador_rpm
+          Type: StoreColumn
+          DataType: Int32
+        - Name: dil_mixing_time_min
+          Type: StoreColumn
+          DataType: Int32
+        - Name: qc_dil_particula_min
+          Type: StoreColumn
+          DataType: Float
+        - Name: qc_dil_particula_max
+          Type: StoreColumn
+          DataType: Float
+        - Name: qc_dil_viscosidad_min
+          Type: StoreColumn
+          DataType: Float
+        - Name: qc_dil_viscosidad_max
+          Type: StoreColumn
+          DataType: Float
+        - Name: qc_dil_ph_min
+          Type: StoreColumn
+          DataType: Float
+        - Name: qc_dil_ph_max
+          Type: StoreColumn
+          DataType: Float
+        - Name: qc_dil_tono_min
+          Type: StoreColumn
+          DataType: Float
+        - Name: qc_dil_tono_max
+          Type: StoreColumn
+          DataType: Float
+        - Name: qc_dil_densidad_min
+          Type: StoreColumn
+          DataType: Float
+        - Name: qc_dil_densidad_max
+          Type: StoreColumn
+          DataType: Float
+        - Name: recipe_id
+          Type: StoreColumn
+          DataType: String
+        - Name: recipe_name
+          Type: StoreColumn
+          DataType: String
+        - Name: product_type
+          Type: StoreColumn
+          DataType: String
+        - Name: version
+          Type: StoreColumn
+          DataType: String
+        - Name: batch_size
+          Type: StoreColumn
+          DataType: Float
+        - Name: status
+          Type: StoreColumn
+          DataType: String
+    - Name: batch_plc_setpoints
+      Type: SQLiteStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=11;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=11;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=11;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=11;i=20
+        Direction: Forward
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: batch_id
+          Type: StoreColumn
+          DataType: String
+        - Name: calc_disp_agua_kg
+          Type: StoreColumn
+          DataType: Float
+        - Name: calc_disp_biocida_kg
+          Type: StoreColumn
+          DataType: Float
+        - Name: calc_disp_dispersantes_kg
+          Type: StoreColumn
+          DataType: Float
+        - Name: calc_disp_antiespumante_kg
+          Type: StoreColumn
+          DataType: Float
+        - Name: calc_disp_pigmentos_kg
+          Type: StoreColumn
+          DataType: Float
+        - Name: calc_disp_cargas_kg
+          Type: StoreColumn
+          DataType: Float
+        - Name: calc_disp_agitador_rpm
+          Type: StoreColumn
+          DataType: Int32
+        - Name: calc_disp_mixing_time_min
+          Type: StoreColumn
+          DataType: Int32
+        - Name: calc_qc_disp_particula_min
+          Type: StoreColumn
+          DataType: Float
+        - Name: calc_qc_disp_particula_max
+          Type: StoreColumn
+          DataType: Float
+        - Name: calc_dil_agua_kg
+          Type: StoreColumn
+          DataType: Float
+        - Name: calc_dil_resina_kg
+          Type: StoreColumn
+          DataType: Float
+        - Name: calc_dil_espesantes_kg
+          Type: StoreColumn
+          DataType: Float
+        - Name: calc_dil_ph_regulator_kg
+          Type: StoreColumn
+          DataType: Float
+        - Name: calc_dil_antiespumante_kg
+          Type: StoreColumn
+          DataType: Float
+        - Name: calc_dil_biocida_kg
+          Type: StoreColumn
+          DataType: Float
+        - Name: calc_dil_aditivos_kg
+          Type: StoreColumn
+          DataType: Float
+        - Name: calc_dil_agitador_rpm
+          Type: StoreColumn
+          DataType: Int32
+        - Name: calc_dil_mixing_time_min
+          Type: StoreColumn
+          DataType: Int32
+        - Name: calc_qc_dil_particula_min
+          Type: StoreColumn
+          DataType: Float
+        - Name: calc_qc_dil_particula_max
+          Type: StoreColumn
+          DataType: Float
+        - Name: calc_qc_dil_viscosidad_min
+          Type: StoreColumn
+          DataType: Float
+        - Name: calc_qc_dil_viscosidad_max
+          Type: StoreColumn
+          DataType: Float
+        - Name: calc_qc_dil_ph_min
+          Type: StoreColumn
+          DataType: Float
+        - Name: calc_qc_dil_ph_max
+          Type: StoreColumn
+          DataType: Float
+        - Name: calc_qc_dil_tono_min
+          Type: StoreColumn
+          DataType: Float
+        - Name: calc_qc_dil_tono_max
+          Type: StoreColumn
+          DataType: Float
+        - Name: calc_qc_dil_densidad_min
+          Type: StoreColumn
+          DataType: Float
+        - Name: calc_qc_dil_densidad_max
+          Type: StoreColumn
+          DataType: Float
+    - Name: coa_history
+      Type: SQLiteStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=11;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=11;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=11;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=11;i=20
+        Direction: Forward
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: batch_id
+          Type: StoreColumn
+          DataType: String
+        - Name: qc_stage
+          Type: StoreColumn
+          DataType: String
+        - Name: parameter
+          Type: StoreColumn
+          DataType: String
+        - Name: timestamp
+          Type: StoreColumn
+          DataType: String
+        - Name: recorded_value
+          Type: StoreColumn
+          DataType: Float
+        - Name: min_limit
+          Type: StoreColumn
+          DataType: Float
+        - Name: max_limit
+          Type: StoreColumn
+          DataType: Float
+        - Name: result
+          Type: StoreColumn
+          DataType: String
+        - Name: attempt
+          Type: StoreColumn
+          DataType: Int32
+  - Class: Reference
+    Target: ns=16;i=30
+    Direction: Forward
+  - Class: Reference
+    Target: ns=16;i=33
+    Direction: Forward
+  - Name: MaxColumnNameLength
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: MaxColumnCount
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: DataTypeCompatibilityMap
+    Type: BaseDataVariableType
+    DataType: NodeId
+    AccessLevel: Read
+    ValueRank: OneOrMoreDimensions
+    ArrayDimensions: [0,0]
+  - Name: Status
+    Type: PropertyType
+    DataType: StoreStatus
+    AccessLevel: Read
+    Value: 2
+  - Class: Reference
+    Target: ns=11;i=22
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=67
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=6
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=8
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=25
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=38
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=41
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=44
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=53
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=55
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=57
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=59
+    Direction: Forward
+  - Name: Filename
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "C:/Users/hecto/Documents/Proyeto_integrador/Programas_OPTIX/MES_Pintura_RFID/DataBase/PinturaDB_v1"
+  - Name: InMemory
+    Type: BaseDataVariableType
+    DataType: Boolean
+- Name: BatchList
+  Id: g=fec82abc4198499472e01fb22540026c
+  Type: SQLiteStore
+  Children:
+  - Name: Tables
+    Type: BaseObjectType
+    Children:
+    - Name: DataLogger1
+      Type: SQLiteStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=11;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=11;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=11;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=11;i=20
+        Direction: Forward
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: Timestamp
+          Type: StoreColumn
+          DataType: UtcTime
+        - Name: LocalTimestamp
+          Type: StoreColumn
+          DataType: DateTime
+        - Name: TargetQuantity
+          Type: StoreColumn
+          DataType: Float
+  - Class: Reference
+    Target: ns=16;i=30
+    Direction: Forward
+  - Class: Reference
+    Target: ns=16;i=33
+    Direction: Forward
+  - Name: MaxColumnNameLength
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: MaxColumnCount
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: DataTypeCompatibilityMap
+    Type: BaseDataVariableType
+    DataType: NodeId
+    AccessLevel: Read
+    ValueRank: OneOrMoreDimensions
+    ArrayDimensions: [0,0]
+  - Name: Status
+    Type: PropertyType
+    DataType: StoreStatus
+    AccessLevel: Read
+    Value: 2
+  - Class: Reference
+    Target: ns=11;i=22
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=67
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=6
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=8
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=25
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=38
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=41
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=44
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=53
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=55
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=57
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=59
+    Direction: Forward
+- Name: RfidStorage
+  Type: SQLiteStore
+  Children:
+  - Name: Tables
+    Type: BaseObjectType
+  - Class: Reference
+    Target: ns=16;i=30
+    Direction: Forward
+  - Class: Reference
+    Target: ns=16;i=33
+    Direction: Forward
+  - Name: MaxColumnNameLength
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: MaxColumnCount
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: DataTypeCompatibilityMap
+    Type: BaseDataVariableType
+    DataType: NodeId
+    AccessLevel: Read
+    ValueRank: OneOrMoreDimensions
+    ArrayDimensions: [0,0]
+  - Name: Status
+    Type: PropertyType
+    DataType: StoreStatus
+    AccessLevel: Read
+    Value: 2
+  - Class: Reference
+    Target: ns=11;i=22
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=67
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=6
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=8
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=25
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=38
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=41
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=44
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=53
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=55
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=57
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=59
+    Direction: Forward
+  - Name: UserBuffer
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: PassBuffer
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"

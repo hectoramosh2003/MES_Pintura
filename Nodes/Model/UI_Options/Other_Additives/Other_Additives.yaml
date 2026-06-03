@@ -1,0 +1,17 @@
+Name: Other Additives
+Id: g=d1852c8121852b12cafb26b9679e5532
+Type: FolderType
+Children:
+- Name: Propylene Glycol
+  Id: g=8c49783dfb321a51ff4cf329f59bde2b
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "Propylene Glycol"
+- Name: Polyethylene Wax Emulsion
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "Polyethylene Wax Emulsion"
+- Name: Silane
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "Silane"

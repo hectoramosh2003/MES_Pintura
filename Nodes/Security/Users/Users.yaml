@@ -1,0 +1,190 @@
+Name: Users
+Id: g=8cdfe95c558e909385d4fe7ddc9a2655
+Type: UsersCategoryFolder
+Children:
+- Name: Manager
+  Id: g=7f8fd64bf7ae4398f180b06e8b6ffd64
+  Type: UserType
+  Children:
+  - Name: Password
+    Id: g=dd0898ab29a089114bcf9f5b11e3f35c
+    Type: Password
+    DataType: Password
+    ReferenceType: HasProperty
+    AccessLevel: Read
+    Children:
+    - Name: Hash
+      Id: g=7ca6816f503af02e604a753723014483
+      Type: PropertyType
+      DataType: PasswordHash
+      AccessLevel: Read
+      Value: 
+       {
+        "TypeId": {
+         "Id": 252,
+         "Namespace": 1
+        },
+        "Body": {
+         "Hash": [178,68,179,71,45,203,206,41,83,226,111,58,136,145,1,18,183,42,107,88,142,96,75,237,96,78,137,22,170,167,161,144],
+         "Salt": [137,213,82,104,74,209,196,128,238,65,6,242,172,22,4,123,127,49,10,172,227,34,62,149,1,253,47,228,2,66,18,248]
+        }
+       }
+    - Name: ChangeTimestamp
+      Id: g=90fafe2afa200475c0a1275b5832a1f0
+      Type: PropertyType
+      DataType: UtcTime
+      AccessLevel: Read
+      Value: "2026-05-12T02:00:05.6889989"
+    - Name: History
+      Id: g=bd65cfd8f585c89a55524f46d06072c9
+      Type: PropertyType
+      DataType: PasswordHash
+      AccessLevel: Read
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+      Value: [{"TypeId":{"Id":252,"Namespace":1},"Body":{"Hash":[178,68,179,71,45,203,206,41,83,226,111,58,136,145,1,18,183,42,107,88,142,96,75,237,96,78,137,22,170,167,161,144],"Salt":[137,213,82,104,74,209,196,128,238,65,6,242,172,22,4,123,127,49,10,172,227,34,62,149,1,253,47,228,2,66,18,248]}}]
+  - Name: LocaleId
+    Id: g=0c5bf033639d2821d65f683f2518cb39
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    Value: "en-US"
+  - Name: Language
+    Id: g=7b96552af3ab06a9ca24de9f580bc17b
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    Value: "en-US"
+  - Name: MeasurementSystem
+    Id: g=ea69863f765cb5e5ed22d93c4d8ef484
+    Type: BaseVariableType
+    DataType: MeasurementSystem
+    ReferenceType: HasProperty
+    Value: 1
+  - Class: Reference
+    Type: HasGroup
+    Target: g=5efeed81c6cfdd92b76b7f68f80fb700
+  - Name: RfidTag
+    Id: g=6d645986210e58f6b686610927b01b4b
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "114679003"
+  - Name: ClaveRFID
+    Id: g=a7fc3630cb061c3b01e24ecad026313f
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "1234"
+- Name: Operator
+  Id: g=605ce36ce6a558b5db444908e5bf06eb
+  Type: UserType
+  Children:
+  - Name: Password
+    Id: g=865d3951eec9e3e7dd2be95522397b69
+    Type: Password
+    DataType: Password
+    ReferenceType: HasProperty
+    AccessLevel: Read
+    Children:
+    - Name: Hash
+      Id: g=26e56fa571710ee7322bcf9da244ddc8
+      Type: PropertyType
+      DataType: PasswordHash
+      AccessLevel: Read
+      Value: 
+       {
+        "TypeId": {
+         "Id": 252,
+         "Namespace": 1
+        },
+        "Body": {
+         "Hash": [88,59,0,84,188,67,81,212,198,227,79,50,109,8,201,14,133,213,148,69,162,106,69,40,107,40,194,186,110,17,178,198],
+         "Salt": [10,114,122,60,43,20,156,28,122,216,9,236,124,121,38,225,108,8,44,60,40,125,131,135,184,153,145,113,111,18,134,125]
+        }
+       }
+    - Name: ChangeTimestamp
+      Id: g=f93f84621ed62a46c5113fd634da388a
+      Type: PropertyType
+      DataType: UtcTime
+      AccessLevel: Read
+      Value: "2026-05-12T02:01:28.6568881"
+    - Name: History
+      Id: g=3c707bfd5c1ec9d47fb1f4e95319a3c2
+      Type: PropertyType
+      DataType: PasswordHash
+      AccessLevel: Read
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+      Value: [{"TypeId":{"Id":252,"Namespace":1},"Body":{"Hash":[88,59,0,84,188,67,81,212,198,227,79,50,109,8,201,14,133,213,148,69,162,106,69,40,107,40,194,186,110,17,178,198],"Salt":[10,114,122,60,43,20,156,28,122,216,9,236,124,121,38,225,108,8,44,60,40,125,131,135,184,153,145,113,111,18,134,125]}}]
+  - Name: LocaleId
+    Id: g=5869f9ba97c0f1df87993ede49aa1c70
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    Value: "en-US"
+  - Class: Reference
+    Type: HasGroup
+    Target: g=091b6a1a5e701998edceb2648f9446f1
+  - Name: RfidTag
+    Id: g=b4d96257ff6cf9fe769a3a36616b6129
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "114498379"
+  - Name: ClaveRFID
+    Id: g=fdcfe73d1f44a89c24225500ce766019
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "1234"
+- Name: Héctor
+  Id: g=a005f6d9db7cff3078c70b55dd168006
+  Type: UserType
+  Children:
+  - Name: Password
+    Id: g=75d22ded5c867273de6fa78b738719e8
+    Type: Password
+    DataType: Password
+    ReferenceType: HasProperty
+    AccessLevel: Read
+    Children:
+    - Name: Hash
+      Id: g=56af0d2ed36d874587937a7a1443b76c
+      Type: PropertyType
+      DataType: PasswordHash
+      AccessLevel: Read
+      Value: 
+       {
+        "TypeId": {
+         "Id": 252,
+         "Namespace": 1
+        },
+        "Body": {
+         "Hash": [65,3,159,12,201,77,96,162,239,172,58,180,95,21,185,197,29,14,71,56,231,91,238,201,4,162,3,246,167,127,254,126],
+         "Salt": [238,4,108,86,174,23,88,196,136,222,94,151,142,163,2,98,43,59,77,243,57,132,106,142,87,86,45,253,128,145,206,240]
+        }
+       }
+    - Name: ChangeTimestamp
+      Id: g=48a2ea94f17e930c36e58ebac2bf1be4
+      Type: PropertyType
+      DataType: UtcTime
+      AccessLevel: Read
+      Value: "2026-05-29T17:46:50.0698062"
+    - Name: History
+      Id: g=8d8ea96c4c6a58b0006068804b2916fa
+      Type: PropertyType
+      DataType: PasswordHash
+      AccessLevel: Read
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+      Value: [{"TypeId":{"Id":252,"Namespace":1},"Body":{"Hash":[65,3,159,12,201,77,96,162,239,172,58,180,95,21,185,197,29,14,71,56,231,91,238,201,4,162,3,246,167,127,254,126],"Salt":[238,4,108,86,174,23,88,196,136,222,94,151,142,163,2,98,43,59,77,243,57,132,106,142,87,86,45,253,128,145,206,240]}}]
+  - Class: Reference
+    Type: HasGroup
+    Target: g=5efeed81c6cfdd92b76b7f68f80fb700
+  - Name: RfidTag
+    Id: g=5dafa35df53337c12ca7c1628e75b09c
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "115038011"
+  - Name: ClaveRFID
+    Id: g=2ac2949e304fa7b2ac29778840b37266
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "12345678"

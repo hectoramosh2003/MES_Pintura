@@ -1,0 +1,17 @@
+Name: Biocides
+Id: g=1456955c9195b059f18a7738c31c4f06
+Type: FolderType
+Children:
+- Name: Benzisothiazolinone(BIT)
+  Id: g=b3aa1868961692fcde9c6a89c8289d86
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "Benzisothiazolinone(BIT)"
+- Name: OIT (Octylisothiazolinone)
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "OIT (Octylisothiazolinone)"
+- Name: Zinc Pyrithione
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "Zinc Pyrithione"

@@ -1,0 +1,8 @@
+<svg version="1.2" baseProfile="tiny" id="EdgeSVG_x6aiQ" x="0px" y="0px" width="40.363px" height="8px" viewBox="0 0 40.363 8" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <radialGradient id="SVGID_11_" cx="20.1812" cy="4" r="15.6652" gradientUnits="userSpaceOnUse">
+    <stop offset="0.0305" style="stop-color:#FFFFFF;stop-opacity:0.9"/>
+    <stop offset="0.3841" style="stop-color:#FFFFFF;stop-opacity:0.4"/>
+    <stop offset="1" style="stop-color:#FFFFFF;stop-opacity:0"/>
+  </radialGradient>
+  <path fill="url(#SVGID_11_)" d="M5.202,7.75c-0.594,0-1.08-0.486-1.08-1.08V1.33c0-0.594,0.486-1.08,1.08-1.08h29.959&#xD;&#xA;&#x9;&#x9;c0.594,0,1.08,0.486,1.08,1.08v5.34c0,0.594-0.486,1.08-1.08,1.08H5.202z"/>
+</svg>

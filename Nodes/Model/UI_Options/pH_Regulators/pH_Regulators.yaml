@@ -1,0 +1,17 @@
+Name: pH Regulators
+Id: g=d5a045798d244a28d493cdb46b3c51c6
+Type: FolderType
+Children:
+- Name: Ammonia
+  Id: g=9516cb0d1da8f3348d9ff1b6d3ad6c36
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "Ammonia"
+- Name: Monoethanolamine(MEA)
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "Monoethanolamine(MEA)"
+- Name: Dimethylethanolamine(DMEA)
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "Dimethylethanolamine(DMEA)"

@@ -1,0 +1,17 @@
+Name: Thickeners
+Id: g=39c5937013529fee6c5c640733b2dfd5
+Type: FolderType
+Children:
+- Name: Hydroxyethyl Cellulose(HEC)
+  Id: g=d19cda58ce00bd4f8a0833e12bad0f78
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "Hydroxyethyl Cellulose(HEC)"
+- Name: Attapulgite Clay
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "Attapulgite Clay"
+- Name: Carboxymethyl Cellulose(CMC)
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "Carboxymethyl Cellulose(CMC)"

@@ -1,0 +1,12 @@
+Name: Fase_Pack
+Type: FolderType
+Children:
+- Name: Timer_ACC
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: Timer_PRE
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: Progreso_UI
+  Type: BaseDataVariableType
+  DataType: Float

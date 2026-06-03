@@ -1,0 +1,17 @@
+Name: Dispersants _ Wetting Agents
+Id: g=c8621b2cbc2404e0af50884869d6df36
+Type: FolderType
+Children:
+- Name: Sodium Polyacrylate
+  Id: g=42b00b1987c755e53cb9ea7df7c9b63c
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "Sodium Polyacrylate"
+- Name: Soy Lecithin
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "Soy Lecithin"
+- Name: Block Copolymer
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "Block Copolymer"

@@ -1,0 +1,8 @@
+Name: PhaseTracker
+Type: FolderType
+Children:
+- File: Fase_Disp/Fase_Disp.yaml
+- File: Fase_QC_Disp/Fase_QC_Disp.yaml
+- File: Fase_Dil/Fase_Dil.yaml
+- File: Fase_QC_Dil/Fase_QC_Dil.yaml
+- File: Fase_Pack/Fase_Pack.yaml

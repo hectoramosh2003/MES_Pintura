@@ -1,0 +1,177 @@
+Name: BatchTracking
+Type: FolderType
+Children:
+- Name: SelectedBatchID
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "ㅤ"
+- Name: SelectedReducedBatchID
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "0"
+- Name: BatchState
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "ㅤ"
+- Name: BatchStatus
+  Type: BaseDataVariableType
+  DataType: String
+- Name: SelectedRecipe
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "ㅤ"
+- Name: SelectedRecipeN
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "0"
+- Name: Operator
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "ㅤ"
+- Name: StartTime
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "0"
+- Name: EndTime
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "ㅤ"
+- Name: QCDispersionTimeStamp
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "0"
+- Name: QCDilutionTimeStamp
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "0"
+- Name: disp_qc_particula
+  Type: BaseDataVariableType
+  DataType: Float
+- Name: dil_qc_particula
+  Type: BaseDataVariableType
+  DataType: Float
+- Name: dil_qc_viscosidad
+  Type: BaseDataVariableType
+  DataType: Float
+- Name: dil_qc_ph
+  Type: BaseDataVariableType
+  DataType: Float
+- Name: dil_qc_tono
+  Type: BaseDataVariableType
+  DataType: Float
+- Name: dil_qc_densidad
+  Type: BaseDataVariableType
+  DataType: Float
+- Name: PLC_Phase_Step
+  Id: g=d106b79bae1cf51a993e1310f4ffe360
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: qc_disp_particula_status
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: qc_dil_particula_status
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: qc_dil_viscosidad_status
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: qc_dil_ph_status
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: qc_dil_tono_status
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: qc_dil_densidad_status
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: PLC_Start_Cmd
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Cmd_Batch_Start"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: PLC_Pause_Cmd
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Cmd_Batch_Hold"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: PLC_Restart_Cmd
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Cmd_Batch_Restart"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: PLC_Stop_Cmd
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Cmd_Batch_Stop"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: PLC_Abort_Cmd
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Cmd_Batch_Abort"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: PLC_Reset_Cmd
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Cmd_Batch_Reset"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: PLC_ForceTransition_Cmd
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Cmd_Force_Transition"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2

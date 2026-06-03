@@ -1,0 +1,17 @@
+Name: StatusOptions
+Id: g=771f7985647abdc0c48e712d543c49af
+Type: FolderType
+Children:
+- Name: Active
+  Id: g=8bfa22dd34b8fd9328b79268450ec3b3
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "Active"
+- Name: Draft
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "Draft"
+- Name: Archive
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "Archive"

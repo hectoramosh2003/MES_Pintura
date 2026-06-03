@@ -1,0 +1,17 @@
+Name: Pigments
+Id: g=ef29976eac719625f9dacc7fe93cc4f6
+Type: FolderType
+Children:
+- Name: Titanium Dioxide (Rutile)
+  Id: g=e1aee89e0d77fde7cf2dfe6febf2d763
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "Titanium Dioxide (Rutile)"
+- Name: Carbon Black
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "Carbon Black"
+- Name: Iron Oxide (Red_Yellow)
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "Iron Oxide (Red/Yellow)"

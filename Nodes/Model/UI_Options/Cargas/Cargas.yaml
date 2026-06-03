@@ -1,0 +1,17 @@
+Name: Cargas
+Id: g=2d14687df69197f8f16bd1c5eec10e89
+Type: FolderType
+Children:
+- Name: Calcium Carbonate
+  Id: g=3322c7e482096a79dcfb61d75ec87f03
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "Calcium Carbonate"
+- Name: Calcined Kaolin
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "Calcined Kaolin"
+- Name: Magnesium Silicate
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "Magnesium Silicate"

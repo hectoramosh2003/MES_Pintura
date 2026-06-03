@@ -1,0 +1,25 @@
+Name: BatchCreation
+Type: FolderType
+Children:
+- Name: GeneratedBatchID
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "ㅤ"
+- Name: ReducedBatchID
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "0"
+- Name: DailyBatchCount
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: SelectedRecipe
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "ㅤ"
+- Name: TargetQuantity
+  Type: BaseDataVariableType
+  DataType: Float
+- Name: CreationTimeStamp
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "0"

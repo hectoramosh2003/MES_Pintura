@@ -1,0 +1,14 @@
+Name: UI_Options
+Type: FolderType
+Children:
+- File: StatusOptions/StatusOptions.yaml
+- File: ProductTypeOptions/ProductTypeOptions.yaml
+- File: Biocides/Biocides.yaml
+- File: Dispersants___Wetting_Agents/Dispersants___Wetting_Agents.yaml
+- File: 'Anti-foaming_Agents/Anti-foaming_Agents.yaml'
+- File: Pigments/Pigments.yaml
+- File: Cargas/Cargas.yaml
+- File: Resins/Resins.yaml
+- File: Thickeners/Thickeners.yaml
+- File: pH_Regulators/pH_Regulators.yaml
+- File: Other_Additives/Other_Additives.yaml

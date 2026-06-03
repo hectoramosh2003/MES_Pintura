@@ -1,0 +1,14 @@
+Name: Groups
+Id: g=33ac98afcbbcd645bc8146197074cc43
+Type: GroupsCategoryFolder
+Children:
+- Name: 'Manngement '
+  Id: g=5efeed81c6cfdd92b76b7f68f80fb700
+  Type: GroupType
+  Children:
+  - Class: Reference
+    Type: HasRole
+    Target: g=a66d2646329f795838006bd926d2fa73
+- Name: Operators
+  Id: g=091b6a1a5e701998edceb2648f9446f1
+  Type: GroupType

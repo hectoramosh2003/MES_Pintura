@@ -1,0 +1,19 @@
+Name: AI_Assistant
+Type: FolderType
+Children:
+- Name: AI_Question
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "Escribe tu pregunta aquí..."
+- Name: AI_Response
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "AI Assitant listo.\n\nPuedes preguntar por batches, recetas, calidad, setpoints o solicitar un resumen/reporte de producción."
+- Name: AI_Status
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "0"
+- Name: AI_ReportPath
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "0"

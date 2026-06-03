@@ -1,0 +1,5 @@
+Name: Templates
+Type: FolderType
+Children:
+- File: Common/Common.yaml
+- File: SideMenu/SideMenu.yaml

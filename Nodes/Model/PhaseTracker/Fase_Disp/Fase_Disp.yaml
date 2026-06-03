@@ -1,0 +1,18 @@
+Name: Fase_Disp
+Type: FolderType
+Children:
+- Name: Timer_ACC
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: Timer_PRE
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: SubStep_Actual
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: Bascula_Dispersion
+  Type: BaseDataVariableType
+  DataType: Float
+- Name: Progreso_UI
+  Type: BaseDataVariableType
+  DataType: Float

@@ -1,0 +1,17 @@
+Name: 'Anti-foaming Agents'
+Id: g=50bf39c22035b542eecbdb067572999a
+Type: FolderType
+Children:
+- Name: Silicone Emulsion
+  Id: g=4ad1cc6543c676c9799528ce6368ae2b
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "Silicone Emulsion"
+- Name: Modified Mineral Oil
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "Modified Mineral Oil"
+- Name: 'Silicone-Free Polymers'
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "Silicone-Free Polymers"

@@ -1,0 +1,77 @@
+Name: CommDrivers
+Type: CommDriversCategoryFolder
+Children:
+- File: RAEtherNet_IPDriver1/RAEtherNet_IPDriver1.yaml
+- Name: LectorRFID_Port
+  Type: SerialPort
+  Children:
+  - Name: PortName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "COM3"
+  - Name: Baudrate
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 9600
+  - Name: DataSize
+    Type: BaseDataVariableType
+    DataType: Byte
+    Value: 8
+  - Name: Parity
+    Type: BaseDataVariableType
+    DataType: Parity
+  - Name: StopBits
+    Type: BaseDataVariableType
+    DataType: StopBits
+  - Name: FlowControl
+    Type: BaseDataVariableType
+    DataType: FlowControl
+  - Name: Timeout
+    Type: BaseDataVariableType
+    DataType: Duration
+    Value: "0:00:00:05.0000000"
+  - Name: CommunicationStatus
+    Type: BaseDataVariableType
+    DataType: CommunicationStatus
+    AccessLevel: Read
+  - Class: Reference
+    Target: ns=25;i=9
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=10
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=11
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=14
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=17
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=22
+    Direction: Forward
+  - Name: RuntimeNetLogic1
+    Type: NetLogic
+    Children:
+    - Class: Method
+      Name: OnClick
+    - Name: PasswordTextBox
+      Type: NodePointer
+      DataType: NodeId
+      Value: "/Objects/MES_Pintura/UI/LoginForm/LoginFormComponents/Login/VerticalLayout/Password"
+      Children:
+      - Name: Kind
+        Type: PropertyType
+        DataType: NodeId
+    - Name: UsernameTextBox
+      Type: NodePointer
+      DataType: NodeId
+      Value: "/Objects/MES_Pintura/UI/LoginForm/LoginFormComponents/Login/VerticalLayout/Username"
+      Children:
+      - Name: Kind
+        Type: PropertyType
+        DataType: NodeId
+    - Class: Method
+      Name: LimpiarBuffersBoton

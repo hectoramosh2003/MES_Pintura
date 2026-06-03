@@ -1,0 +1,125 @@
+Name: ActiveBatchParameters
+Type: FolderType
+Children:
+- Name: calc_disp_agua_kg
+  Type: BaseDataVariableType
+  DataType: Float
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Agua_T1_SP"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: calc_disp_biocida_kg
+  Type: BaseDataVariableType
+  DataType: Float
+- Name: calc_disp_dispersantes_kg
+  Type: BaseDataVariableType
+  DataType: Float
+- Name: calc_disp_antiespumante_kg
+  Type: BaseDataVariableType
+  DataType: Float
+- Name: calc_disp_pigmentos_kg
+  Type: BaseDataVariableType
+  DataType: Float
+- Name: calc_disp_cargas_kg
+  Type: BaseDataVariableType
+  DataType: Float
+- Name: calc_disp_agitador_rpm
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: calc_disp_mixing_time_min
+  Type: BaseDataVariableType
+  DataType: Int32
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/MixTime_T1_SP"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: calc_qc_disp_particula_min
+  Type: BaseDataVariableType
+  DataType: Float
+- Name: calc_qc_disp_particula_max
+  Type: BaseDataVariableType
+  DataType: Float
+- Name: calc_dil_agua_kg
+  Type: BaseDataVariableType
+  DataType: Float
+- Name: calc_dil_resina_kg
+  Type: BaseDataVariableType
+  DataType: Float
+- Name: calc_dil_espesantes_kg
+  Type: BaseDataVariableType
+  DataType: Float
+- Name: calc_dil_ph_regulator_kg
+  Type: BaseDataVariableType
+  DataType: Float
+- Name: calc_dil_antiespumante_kg
+  Type: BaseDataVariableType
+  DataType: Float
+- Name: calc_dil_biocida_kg
+  Type: BaseDataVariableType
+  DataType: Float
+- Name: calc_dil_aditivos_kg
+  Type: BaseDataVariableType
+  DataType: Float
+- Name: calc_dil_agitador_rpm
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: calc_dil_mixing_time_min
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: calc_qc_dil_particula_min
+  Type: BaseDataVariableType
+  DataType: Float
+- Name: calc_qc_dil_particula_max
+  Type: BaseDataVariableType
+  DataType: Float
+- Name: calc_qc_dil_viscosidad_min
+  Type: BaseDataVariableType
+  DataType: Float
+- Name: calc_qc_dil_viscosidad_max
+  Type: BaseDataVariableType
+  DataType: Float
+- Name: calc_qc_dil_ph_min
+  Type: BaseDataVariableType
+  DataType: Float
+- Name: calc_qc_dil_ph_max
+  Type: BaseDataVariableType
+  DataType: Float
+- Name: calc_qc_dil_tono_min
+  Type: BaseDataVariableType
+  DataType: Float
+- Name: calc_qc_dil_tono_max
+  Type: BaseDataVariableType
+  DataType: Float
+- Name: calc_qc_dil_densidad_min
+  Type: BaseDataVariableType
+  DataType: Float
+- Name: calc_qc_dil_densidad_max
+  Type: BaseDataVariableType
+  DataType: Float
+- Name: QC_Dispersion_Result
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: QC_Dilution_Result
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: Progreso_Batch_Total
+  Type: BaseDataVariableType
+  DataType: Float
+- Name: Target_Total_Dispersion_Kg
+  Type: BaseDataVariableType
+  DataType: Float
+- Name: Target_Total_Dilucion_Kg
+  Type: BaseDataVariableType
+  DataType: Float

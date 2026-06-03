@@ -1,0 +1,11 @@
+Name: ProductTypeOptions
+Id: g=991e42cc6aacc24c92b7993d1f00fa52
+Type: FolderType
+Children:
+- Name: Water
+  Id: g=ebc549f745a3198a564ca6addcde71ea
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: Acrylic
+  Type: BaseDataVariableType
+  DataType: Int32

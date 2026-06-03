@@ -1,0 +1,11 @@
+Name: Model
+Type: ModelCategoryFolder
+Children:
+- File: BatchCreation/BatchCreation.yaml
+- File: BatchTracking/BatchTracking.yaml
+- File: UI_Options/UI_Options.yaml
+- File: CurrentRecipe/CurrentRecipe.yaml
+- File: ActiveBatchParameters/ActiveBatchParameters.yaml
+- File: PhaseTracker/PhaseTracker.yaml
+- File: BarcodeSystem/BarcodeSystem.yaml
+- File: AI_Assistant/AI_Assistant.yaml
